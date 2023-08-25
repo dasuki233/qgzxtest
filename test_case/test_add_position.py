@@ -30,9 +30,6 @@ class TestAddPosition(BaseUtil):
         logger.info("*************** 开始执行新增岗位成功用例 ***************")
         lp = LoginPage.Login(self.driver)
         lp.login('admin', 'admin', '管理员')
-
-        #
-
         # 下面的代码都要登陆后才能操作
         add_position_page = AddPositionPage.AddPositionPage(self.driver)  # 传递 driver 参数
         add_position_page.fill_form_and_submit(data['jobname'], data['counts'], data['date'],
@@ -48,15 +45,7 @@ class TestAddPosition(BaseUtil):
     def test_add_position_failure(self, data):
         logger.info("*************** 开始执行新增岗位失败用例 ***************")
         add_position_page = AddPositionPage.AddPositionPage()
-        # add_position_page.open_add_position_page()  # Replace with your actual method to open the page
-        add_position_page.fill_form_and_submit(data['jobname'], data['counts'], data['description'])
-
-        # ele_find = add_position_page.get_expected_result()  # Replace with your actual method to verify failure
-        # if ele_find:
-        #     screenshot_util = ScreenshotUtil(self.driver)
-        #     screenshot_util.take_screenshot("add_position_failure")
-
-        # assert ele_find is False, '新增岗位失败,断言失败'
+        add_position_page.fill_form_and_submit(data['jobname'], data['counts'], data['description'], data['date'])
         logger.info("*************** 结束执行新增岗位失败用例 ***************")
 
 
