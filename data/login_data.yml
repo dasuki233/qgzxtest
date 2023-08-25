@@ -1,0 +1,16 @@
+test_normal_login:
+  - index: '1'
+    username: 'admin'
+    password: 'admin'
+    role: '管理员'
+
+  - index: '2'
+    username: '123'
+    password: '123123'
+    role: '管理员'
+
+test_invalid_login:
+  - index: '1'
+    username: 'admin'
+    password: '123'
+    role: '管理员'
