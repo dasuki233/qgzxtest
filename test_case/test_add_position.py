@@ -48,9 +48,3 @@ class TestAddPosition(BaseUtil):
         add_position_page.fill_form_and_submit(data['jobname'], data['counts'], data['description'], data['date'])
         logger.info("*************** 结束执行新增岗位失败用例 ***************")
 
-
-if __name__ == "__main__":
-    pytest.main()
-
-if __name__ == "__main__":
-    pytest.main()
