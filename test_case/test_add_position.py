@@ -23,7 +23,7 @@ class TestAddPosition(BaseUtil):
     @allure.story("用例--新增岗位--预期新增成功")
     @allure.title("新增岗位=>预期成功")
     @allure.description("该用例是针对新增岗位成功场景的测试")
-    @allure.testcase("http://localhost:8080/", name="点击，跳转到新增岗位用例的链接地址")
+    @allure.testcase("http://localhost:8080/admin/positionManagement/AddPosition/", name="点击，跳转到新增岗位用例的链接地址")
     @pytest.mark.parametrize('data', ReadData().load_yaml('add_position_data.yml')['test_add_position'])
     def test_add_position_success(self, data):
         # 登录
@@ -39,7 +39,7 @@ class TestAddPosition(BaseUtil):
 
     @allure.story("用例--新增岗位--预期新增失败")
     @allure.title("新增岗位=>预期失败")
-    @allure.issue("http://localhost:8080/", name="点击，跳转到新增岗位BUG的链接地址")
+    @allure.issue("http://localhost:8080/admin/positionManagement/AddPosition/", name="点击，跳转到新增岗位BUG的链接地址")
     @allure.description("该用例是针对新增岗位失败场景的测试")
     @pytest.mark.parametrize('data', ReadData().load_yaml('add_position_data.yml')['test_invalid_add_position'])
     def test_add_position_failure(self, data):

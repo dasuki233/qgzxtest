@@ -16,19 +16,22 @@ class AddPositionPage(BasePage):
         super().__init__(timeout)
 
     LOCATORS = {
-        "position_icon": ('xpath', '//*[@id="app"]/section/aside/ul/li[2]/ul/li/ul/li[1]'),  # 新增岗位二级菜单
+        # 新增岗位二级菜单
+        "position_icon": (
+            'xpath', '''//li[text()="新增岗位"]'''),
         # 岗位名称
-        "jobname_input": ('xpath', '//*[@id="app"]/section/section/main/div/div/div/form/div[1]/div/div[1]/input'),
+        "jobname_input": ('xpath', "//label[@for='jobname']/following-sibling::div/descendant::input"),
         # 限制人数
-        "counts_input": ('xpath', '//*[@id="app"]/section/section/main/div/div/div/form/div[2]/div/div/div/input'),
-        # 岗位介绍
-        "description_input": ('xpath', '//*[@id="app"]/section/section/main/div/div/div/form/div[5]/div/div/textarea'),
+        "counts_input": ('xpath', "//label[@for='counts']/following-sibling::div/descendant::input"),
         # 截止时间年月日
-        "date": ('xpath', '//*[@id="app"]/section/section/main/div/div/div/form/div[3]/div/div/input'),
+        "date": ('xpath', "//label[@for='overTime']/following-sibling::div/descendant::input"),
         # 时间确定按钮
-        "date_btn": ('xpath', '/html/body/div[2]/div[2]/button[2]'),
+        "date_btn": ('xpath', """//div[@class="el-picker-panel__footer"]/button[contains(span, '确定')]"""),
+        # 岗位介绍
+        "description_input": ('xpath', "//label[@for='description']/following-sibling::div/descendant::textarea"),
+
         # 点击按钮
-        'submit_button': ('xpath', '//*[@id="app"]/section/section/main/div/div/div/form/div[6]/button[1]')
+        'submit_button': ('xpath', "//div[@class='btns']/button[contains(span, '提交')]")
     }
 
     def fill_form_and_submit(self, jobname, counts, date, description):
