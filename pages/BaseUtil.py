@@ -11,6 +11,7 @@ from selenium import webdriver
 
 from qgzxtest.common.BasePage import BasePage
 from qgzxtest.pages import LoginPage
+from qgzxtest.utils.logger import logger
 
 
 class BaseUtil:

@@ -47,7 +47,7 @@ class ReadData:
         return data
 
 
-if __name__ == '__main__':
-    rd = ReadData()
-    data = rd.load_yaml('D:\Python_Workspace\qgzxtest\data\login_data.yml')
-    print(data['test_normal_login'])
+# if __name__ == '__main__':
+#     rd = ReadData()
+#     data = rd.load_yaml('D:\Python_Workspace\qgzxtest\data\login_data.yml')
+#     print(data['test_normal_login'])

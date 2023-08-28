@@ -6,7 +6,7 @@
 @Author  ：zjj
 @Date    ：2023/8/20 21:59 
 '''
-from selenium import webdriver
+import allure
 
 from qgzxtest.common.BasePage import BasePage
 
@@ -29,14 +29,29 @@ class Login(BasePage):
         super().__init__(driver, timeout)
 
     def login(self, username, password, role):
+        '''
+        登录账号操作
+        :param username: 账号
+        :param password: 密码
+        :param role: 登录角色(管理员、教师、学生）
+        :return: None
+        '''
         # 输入动作 登录
-        self.send_keys(*self._loc_username, username)
-        self.send_keys(*self._loc_password, password)
-        self.find_elements(*self._loc_role)[self.role_dict[role]].click()
-        self.click(*self._loc_btn)  # 点击登录
+        with allure.step("输入账号"):
+            allure.attach(f"输入账号:{username}")
+            self.send_keys(*self._loc_username, value=username)
+        with allure.step("输入密码"):
+            allure.attach(f"输入密码:{password}")
+            self.send_keys(*self._loc_password, value=password)
+        with allure.step("选择登录角色"):
+            allure.attach(f"选择登录角色:{role}")
+            self.find_elements(*self._loc_role)[self.role_dict[role]].click()
+        with allure.step("点击登录"):
+            self.click(*self._loc_btn)  # 点击登录
 
-
-
-    # 判断首页icon存在
     def get_except_result(self):
+        '''
+        判断首页icon存在
+        :return: Bool
+        '''
         return self.is_element_exist(*self.home_icon)

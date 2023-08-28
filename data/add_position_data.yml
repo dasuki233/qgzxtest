@@ -1,10 +1,11 @@
 test_add_position:
-  - jobname: '12'
-    counts: '2'
+  - jobname: '121'
+    counts: '211'
     date: 2021-1-1 6:6:6
     description: '岗位介绍11111111111'
 
 test_invalid_add_position:
   - jobname: '1'
     counts: '1'
+    date: 2021-1-1 6:6:6
     description: '1'

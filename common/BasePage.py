@@ -34,8 +34,8 @@ class BasePage:
             'css_selector': By.CSS_SELECTOR
         }
         self.driver = driver  # WebDriver 实例
-        self._wait = WebDriverWait(driver, 3)
-        self.outTime = timeout  # 设置超时时间，默认为 3 秒
+        self._wait = WebDriverWait(driver, 10)
+        self.outTime = timeout  # 设置超时时间，默认为 10 秒
 
     def take_screenshot(self, screenshot_name):
         screenshot_dir = 'screenshots'
