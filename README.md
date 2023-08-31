@@ -3,7 +3,9 @@
 - 由pytest、selenium、allure组成
 
 # 效果图
-添加效果图
+![allure测试图](allure.png)
+![allure测试图](allure2.png)
+
 
 # 环境准备
 ## 1. 安装python依赖模块
