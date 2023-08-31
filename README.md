@@ -17,4 +17,13 @@
    - 将pages目录下BaseUtil.py的Service换成自己当前浏览器版本的驱动地址
 
 # 三、项目结构
-- s
+- common 基础方法类
+- data 测试数据存放目录
+- drivers selenium驱动器存放目录
+- log 日志目录
+- pages 存放页面元素和页面操作目录
+- reports allure测试报告
+- screenshots 存放测试产生的截图文件目录
+- test_case 测试用例目录
+- utils 公共方法
+- all.py 执行测试用例生成报告
