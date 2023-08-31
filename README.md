@@ -2,6 +2,10 @@
 - 采用Page Object设计模式
 - 由pytest、selenium、allure组成
 
+# 被测项目
+- 勤工助学管理系统:[项目地址](https://github.com/dasuki233/springboot)
+
+
 # 效果图
 ![allure测试图](allure.png)
 ![allure测试图](allure2.png)
