@@ -3,7 +3,6 @@
 - 由pytest、selenium、allure组成
 
 # 效果图
-![Uploading allure.png…]()
 
 
 # 环境准备
