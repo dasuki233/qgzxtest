@@ -1,8 +1,8 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b",
-    "name" : "登录功能",
+    "uid" : "ddf54d93fe3098a55e48589e40fba3b9",
+    "name" : "新增岗位功能",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "ddf54d93fe3098a55e48589e40fba3b9",
-    "name" : "新增岗位功能",
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b",
+    "name" : "登录功能",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

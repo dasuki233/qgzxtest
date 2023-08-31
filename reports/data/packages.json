@@ -4,71 +4,16 @@
   "children" : [ {
     "name" : "test_case",
     "children" : [ {
-      "name" : "test_001_login",
-      "children" : [ {
-        "name" : "用户登录=>预期失败",
-        "uid" : "bfac7de3170ffac3",
-        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693481467294,
-          "stop" : 1693481471533,
-          "duration" : 4239
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}" ]
-      }, {
-        "name" : "用户登录=>预期成功",
-        "uid" : "f2c1a3922f4c7b9c",
-        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693481469425,
-          "stop" : 1693481471060,
-          "duration" : 1635
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}" ]
-      }, {
-        "name" : "用户登录=>预期成功",
-        "uid" : "7482b6bcba164721",
-        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1693481476150,
-          "stop" : 1693481477487,
-          "duration" : 1337
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}" ]
-      } ],
-      "uid" : "2ce203e104e36b48d415b642a45b270e"
-    }, {
       "name" : "test_add_position",
       "children" : [ {
         "name" : "新增岗位=>预期成功",
-        "uid" : "99bc34266a404231",
+        "uid" : "143f0e0799ce694f",
         "parentUid" : "a1cacc4828487a5682f816978654bd7a",
         "status" : "passed",
         "time" : {
-          "start" : 1693481469288,
-          "stop" : 1693481475474,
-          "duration" : 6186
+          "start" : 1693508566896,
+          "stop" : 1693508574979,
+          "duration" : 8083
         },
         "flaky" : false,
         "newFailed" : false,
@@ -79,13 +24,13 @@
         "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
       }, {
         "name" : "新增岗位=>预期失败",
-        "uid" : "5934ba3299009e7a",
+        "uid" : "8aa1263320b4b3f8",
         "parentUid" : "a1cacc4828487a5682f816978654bd7a",
         "status" : "passed",
         "time" : {
-          "start" : 1693481469379,
-          "stop" : 1693481480954,
-          "duration" : 11575
+          "start" : 1693508569872,
+          "stop" : 1693508581463,
+          "duration" : 11591
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,13 +41,13 @@
         "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}" ]
       }, {
         "name" : "新增岗位=>预期成功",
-        "uid" : "c44767c35047c606",
+        "uid" : "f6ba9c2b4eb2bf8f",
         "parentUid" : "a1cacc4828487a5682f816978654bd7a",
         "status" : "passed",
         "time" : {
-          "start" : 1693481477621,
-          "stop" : 1693481482846,
-          "duration" : 5225
+          "start" : 1693508581007,
+          "stop" : 1693508587578,
+          "duration" : 6571
         },
         "flaky" : false,
         "newFailed" : false,
@@ -113,13 +58,13 @@
         "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
       }, {
         "name" : "新增岗位=>预期失败",
-        "uid" : "dd1cef4349360a6",
+        "uid" : "56e3c7e83f24d245",
         "parentUid" : "a1cacc4828487a5682f816978654bd7a",
         "status" : "passed",
         "time" : {
-          "start" : 1693481481429,
-          "stop" : 1693481495686,
-          "duration" : 14257
+          "start" : 1693508581956,
+          "stop" : 1693508596084,
+          "duration" : 14128
         },
         "flaky" : false,
         "newFailed" : false,
@@ -131,16 +76,71 @@
       } ],
       "uid" : "a1cacc4828487a5682f816978654bd7a"
     }, {
+      "name" : "test_001_login",
+      "children" : [ {
+        "name" : "用户登录=>预期失败",
+        "uid" : "7cc0410c815e29ab",
+        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693508569847,
+          "stop" : 1693508574658,
+          "duration" : 4811
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}" ]
+      }, {
+        "name" : "用户登录=>预期成功",
+        "uid" : "b6bbeaf27aab5425",
+        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693508569889,
+          "stop" : 1693508571887,
+          "duration" : 1998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}" ]
+      }, {
+        "name" : "用户登录=>预期成功",
+        "uid" : "e36c47387f76ae09",
+        "parentUid" : "2ce203e104e36b48d415b642a45b270e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693508577548,
+          "stop" : 1693508579275,
+          "duration" : 1727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}" ]
+      } ],
+      "uid" : "2ce203e104e36b48d415b642a45b270e"
+    }, {
       "name" : "test_post_review",
       "children" : [ {
         "name" : "岗位审查-审核或删除=>预期成功",
-        "uid" : "30a5a0b3a3e149f1",
+        "uid" : "e07a2267a0eb9ff8",
         "parentUid" : "d17f6ea22dd0e231395e74ff00e437a2",
         "status" : "passed",
         "time" : {
-          "start" : 1693481483203,
-          "stop" : 1693481486225,
-          "duration" : 3022
+          "start" : 1693508585672,
+          "stop" : 1693508589427,
+          "duration" : 3755
         },
         "flaky" : false,
         "newFailed" : false,
@@ -151,13 +151,13 @@
         "parameters" : [ "{'ID': '10', 'operation': '审核通过'}" ]
       }, {
         "name" : "岗位审查-查询功能测试=>预期成功",
-        "uid" : "3a56b50294a6a51",
+        "uid" : "8cb4ceb9e9b54b8a",
         "parentUid" : "d17f6ea22dd0e231395e74ff00e437a2",
         "status" : "passed",
         "time" : {
-          "start" : 1693481486700,
-          "stop" : 1693481488630,
-          "duration" : 1930
+          "start" : 1693508589148,
+          "stop" : 1693508591134,
+          "duration" : 1986
         },
         "flaky" : false,
         "newFailed" : false,
@@ -168,13 +168,13 @@
         "parameters" : [ "{'jobname': '测试', 'total': '2'}" ]
       }, {
         "name" : "岗位审查-审核或删除=>预期成功",
-        "uid" : "4a31472db75bff4",
+        "uid" : "24e6e6e5bd0746f1",
         "parentUid" : "d17f6ea22dd0e231395e74ff00e437a2",
         "status" : "passed",
         "time" : {
-          "start" : 1693481488893,
-          "stop" : 1693481491781,
-          "duration" : 2888
+          "start" : 1693508593305,
+          "stop" : 1693508596337,
+          "duration" : 3032
         },
         "flaky" : false,
         "newFailed" : false,
