@@ -16,6 +16,8 @@ if __name__ == '__main__':
     # pytest.main(['-vs', './test_case'])
 
     import shutil
+
+
     def rmfile(path):
         for filename in os.listdir(path):
             file_path = os.path.join(path, filename)
@@ -24,8 +26,9 @@ if __name__ == '__main__':
             elif os.path.isdir(file_path):
                 shutil.rmtree(file_path)  # 递归删除文件夹及其内容
         print(f'删除了{path}')
-    rmfile('log')
 
+
+    rmfile('log')
 
     # 生成json临时文件
     # pytest.main(['-vs', './test_case/test_001_login.py', '--alluredir', './temp', '--clean-alluredir'])
