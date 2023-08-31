@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     # 生成json临时文件
     # pytest.main(['-vs', './test_case/test_001_login.py', '--alluredir', './temp', '--clean-alluredir'])
-    pytest.main(['-vs', './test_case/test_add_position.py', '--alluredir', './temp', '--clean-alluredir'])
+    pytest.main(['-vs', './test_case', '-n=4', '--alluredir', './temp', '--clean-alluredir'])
 
     # 通过json文件生成allure报告
     os.system('allure generate ./temp -o ./reports --clean')

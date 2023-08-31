@@ -1,0 +1,9 @@
+post_review_operation:
+  - ID: '10'
+    operation: '审核通过'
+  - ID: '11'
+    operation: '审核不通过'
+
+job_search:
+  - jobname: '测试'
+    total: '2'

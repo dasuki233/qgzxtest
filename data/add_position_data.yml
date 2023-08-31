@@ -1,11 +1,21 @@
 test_add_position:
-  - jobname: '121'
-    counts: '211'
-    date: 2021-1-1 6:6:6
-    description: '岗位介绍11111111111'
+  - jobname: '测试开发工程师'
+    counts: '2'
+    date: '2023-9-1 23:59:59'
+    description: '熟悉软件测试流程,23应届生,3年以上工作经验,965'
+  - jobname: '测试开发工程师'
+    counts: '2'
+    date: '2023-9-1 23:59:59'
+    description: '熟悉软件测试流程,23应届生,3年以上工作经验,965'
 
 test_invalid_add_position:
-  - jobname: '1'
+  - jobname: ''
     counts: '1'
-    date: 2021-1-1 6:6:6
-    description: '1'
+    date: '2023-9-1 23:59:59'
+    description: '熟悉软件测试流程,23应届生,能在3日能到岗'
+    expect_values: ['请输入岗位名称', 'None', 'None', 'None']
+  - jobname: '测试开发工程师'
+    counts: '1'
+    date: ''
+    description: ''
+    expect_values: [ 'None', 'None', '截止时间禁止为空', '请输入岗位介绍' ]
