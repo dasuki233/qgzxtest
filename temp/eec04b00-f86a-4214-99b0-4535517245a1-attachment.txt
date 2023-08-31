@@ -1,0 +1,92 @@
+[32mINFO    [0m log:test_add_position.py:52 *************** 开始执行新增岗位失败用例 ***************
+[32mINFO    [0m log:test_add_position.py:55 *************** 开始执行新增岗位成功用例 ***************
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[32mINFO    [0m log:BasePage.py:78 [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[32mINFO    [0m log:BasePage.py:237 点击定位方式 "id" 为 "successBtn" 的元素
+[32mINFO    [0m log:BasePage.py:111 元素 "successBtn" 可点击
+[32mINFO    [0m log:BasePage.py:237 点击定位方式 "xpath" 为 "//li[text()="新增岗位"]" 的元素
+[32mINFO    [0m log:BasePage.py:111 元素 "//li[text()="新增岗位"]" 可点击
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//label[@for='jobname']/following-sibling::div/descendant::input" 的元素输入数据: "测试开发工程师"
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/descendant::input"!]
+[32mINFO    [0m log:BasePage.py:225 正在清理定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素中的数据
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素输入数据: "1"
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//label[@for='overTime']/following-sibling::div/descendant::input" 的元素输入数据: ""
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/descendant::input"!]
+[32mINFO    [0m log:BasePage.py:249 强制休眠 "1" 秒
+[32mINFO    [0m log:BasePage.py:237 点击定位方式 "xpath" 为 "//label[@for='overTime']" 的元素
+[32mINFO    [0m log:BasePage.py:111 元素 "//label[@for='overTime']" 可点击
+[32mINFO    [0m log:BasePage.py:212 向定位方式 "xpath" 为 "//label[@for='description']/following-sibling::div/descendant::textarea" 的元素输入数据: ""
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/descendant::textarea"!]
+[32mINFO    [0m log:screenshot_util.py:26 Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\submit.png
+[32mINFO    [0m log:BasePage.py:249 强制休眠 "1" 秒
+[32mINFO    [0m log:BasePage.py:237 点击定位方式 "xpath" 为 "//div[@class='btns']/button[contains(span, '提交')]" 的元素
+[32mINFO    [0m log:BasePage.py:111 元素 "//div[@class='btns']/button[contains(span, '提交')]" 可点击
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']"!]
+[1m[31mERROR   [0m log:BasePage.py:64 error: 查找 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[1m[31mERROR   [0m log:BasePage.py:194 无法从元素 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']"!]
+[1m[31mERROR   [0m log:BasePage.py:64 error: 查找 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[1m[31mERROR   [0m log:BasePage.py:194 无法从元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/div[@class='el-form-item__error']"!]
+[32mINFO    [0m log:BasePage.py:190 获取元素文本: 截止时间禁止为空
+[32mINFO    [0m log:BasePage.py:60 [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/div[@class='el-form-item__error']"!]
+[32mINFO    [0m log:BasePage.py:190 获取元素文本: 请输入岗位介绍
+[32mINFO    [0m log:test_add_position.py:62 期望结果：['None', 'None', '截止时间禁止为空', '请输入岗位介绍']， 实际结果： ['None', 'None', '截止时间禁止为空', '请输入岗位介绍'] 
+[32mINFO    [0m log:test_add_position.py:64 *************** 结束执行新增岗位失败用例 ***************

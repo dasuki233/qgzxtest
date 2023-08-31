@@ -1,0 +1,179 @@
+{
+  "uid" : "f2c1a3922f4c7b9c",
+  "name" : "用户登录=>预期成功",
+  "fullName" : "test_case.test_001_login#test_normal_login",
+  "historyId" : "19d934bbe5f5c256121a77d15caa1e8d",
+  "time" : {
+    "start" : 1693481469425,
+    "stop" : 1693481471060,
+    "duration" : 1635
+  },
+  "description" : "该用例是针对 登录成功 场景的测试",
+  "descriptionHtml" : "<p>该用例是针对 登录成功 场景的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例是针对 登录成功 场景的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1693481469426,
+        "stop" : 1693481469736,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc284c570c631de4",
+        "name" : "9c8ea5e6-4f75-4a6d-9c61-5b7727072f26-attachment.attach",
+        "source" : "cc284c570c631de4.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1693481469736,
+        "stop" : 1693481469947,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fee2f340a46e6eba",
+        "name" : "301247ac-0332-4721-ad17-244ddad44467-attachment.attach",
+        "source" : "fee2f340a46e6eba.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择登录角色",
+      "time" : {
+        "start" : 1693481469947,
+        "stop" : 1693481470050,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6a425f778ac9fad",
+        "name" : "aca81278-5751-4267-983e-b29101991bbf-attachment.attach",
+        "source" : "b6a425f778ac9fad.attach",
+        "type" : "text/plain",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1693481470050,
+        "stop" : 1693481470191,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f550369fb5cf4108",
+      "name" : "login_success",
+      "source" : "f550369fb5cf4108.png",
+      "type" : "image/png",
+      "size" : 33422
+    }, {
+      "uid" : "a9b682543ab3d17e",
+      "name" : "log",
+      "source" : "a9b682543ab3d17e.txt",
+      "type" : "text/plain",
+      "size" : 1307
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "story",
+    "value" : "用例--登录--预期登录成功"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "A"
+  }, {
+    "name" : "thread",
+    "value" : "25780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}"
+  } ],
+  "links" : [ {
+    "name" : "点击，跳转到登录用例的链接地址",
+    "url" : "http://localhost:8080/",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2c1a3922f4c7b9c.json",
+  "parameterValues" : [ "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}" ]
+}

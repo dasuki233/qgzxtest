@@ -1,0 +1,410 @@
+[2023-08-31 19:31:01,538][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:01,540][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:01,541][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:01,543][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:01,549][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:01,552][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:01,553][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:01,556][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:01,564][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:01,565][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:01,565][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:01,567][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:02,436][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:02,438][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:02,439][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:02,441][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:02,447][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:02,450][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:02,451][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:02,454][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:02,460][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:02,461][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:02,462][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:02,463][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:03,430][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:03,433][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:03,433][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:03,436][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:03,441][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:03,447][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:03,447][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:03,450][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:03,455][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:03,457][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:03,457][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:03,458][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:04,351][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:04,353][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:04,354][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/login_data.yml 文件......
+[2023-08-31 19:31:04,356][read_data.py 46][INFO]: 读到数据 ==>>  {'test_normal_login': [{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}, {'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}], 'test_invalid_login': [{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}]} 
+[2023-08-31 19:31:04,362][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:04,365][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:04,365][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/add_position_data.yml 文件......
+[2023-08-31 19:31:04,369][read_data.py 46][INFO]: 读到数据 ==>>  {'test_add_position': [{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}, {'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}], 'test_invalid_add_position': [{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}, {'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}]} 
+[2023-08-31 19:31:04,375][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:04,376][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:04,377][read_data.py 43][INFO]: 加载 D:\Python_Workspace\qgzxtest\/data/post_review_data.yml 文件......
+[2023-08-31 19:31:04,378][read_data.py 46][INFO]: 读到数据 ==>>  {'post_review_operation': [{'ID': '10', 'operation': '审核通过'}, {'ID': '11', 'operation': '审核不通过'}], 'job_search': [{'jobname': '测试', 'total': '2'}]} 
+[2023-08-31 19:31:07,293][test_001_login.py 51][INFO]: *************** 开始执行登录失败用例 ***************
+[2023-08-31 19:31:07,295][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:07,295][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:07,571][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "123"
+[2023-08-31 19:31:07,571][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:07,718][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:07,803][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:07,846][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:08,420][BasePage.py 129][INFO]: 发现警告框: 校验失败，用户名或密码错误！
+[2023-08-31 19:31:08,423][BasePage.py 129][INFO]: 发现警告框: 校验失败，用户名或密码错误！
+[2023-08-31 19:31:08,425][BasePage.py 170][INFO]: 获取警告框文本: 校验失败，用户名或密码错误！
+[2023-08-31 19:31:09,287][test_add_position.py 31][INFO]: *************** 开始执行新增岗位成功用例 ***************
+[2023-08-31 19:31:09,292][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,293][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:09,379][test_add_position.py 52][INFO]: *************** 开始执行新增岗位失败用例 ***************
+[2023-08-31 19:31:09,379][test_add_position.py 55][INFO]: *************** 开始执行新增岗位成功用例 ***************
+[2023-08-31 19:31:09,381][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,381][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:09,424][test_001_login.py 30][INFO]: *************** 开始执行登录成功用例 ***************
+[2023-08-31 19:31:09,426][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,426][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:09,593][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,593][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:09,724][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,724][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:09,736][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:09,737][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:09,848][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:09,945][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:09,947][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:09,974][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:10,025][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:10,050][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:10,061][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:10,109][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:10,121][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:10,122][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="新增岗位"]" 的元素
+[2023-08-31 19:31:10,209][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="新增岗位"]" 的元素
+[2023-08-31 19:31:10,686][BasePage.py 111][INFO]: 元素 "//li[text()="新增岗位"]" 可点击
+[2023-08-31 19:31:10,736][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='jobname']/following-sibling::div/descendant::input" 的元素输入数据: "测试开发工程师"
+[2023-08-31 19:31:10,736][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:10,781][BasePage.py 111][INFO]: 元素 "//li[text()="新增岗位"]" 可点击
+[2023-08-31 19:31:10,855][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='jobname']/following-sibling::div/descendant::input" 的元素输入数据: "测试开发工程师"
+[2023-08-31 19:31:10,856][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:10,980][BasePage.py 225][INFO]: 正在清理定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素中的数据
+[2023-08-31 19:31:10,980][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:11,058][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\login_success.png
+[2023-08-31 19:31:11,059][test_001_login.py 40][INFO]: 期望结果：True， 实际结果：【 True 】
+[2023-08-31 19:31:11,059][test_001_login.py 42][INFO]: *************** 结束执行登录成功用例 ***************
+[2023-08-31 19:31:11,080][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素输入数据: "2"
+[2023-08-31 19:31:11,080][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:11,271][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='overTime']/following-sibling::div/descendant::input" 的元素输入数据: "2023-9-1 23:59:59"
+[2023-08-31 19:31:11,271][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:11,502][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:11,533][BasePage.py 98][ERROR]: Error: 元素 ".el-icon-s-home" 不存在
+[2023-08-31 19:31:11,533][test_001_login.py 64][INFO]: 期望结果：False， 实际结果：【 False 】
+[2023-08-31 19:31:11,533][test_001_login.py 65][INFO]: 期望结果：校验失败，用户名或密码错误！， 实际结果：【 校验失败，用户名或密码错误！ 】
+[2023-08-31 19:31:11,533][test_001_login.py 66][INFO]: *************** 结束执行登录失败用例 ***************
+[2023-08-31 19:31:11,636][BasePage.py 225][INFO]: 正在清理定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素中的数据
+[2023-08-31 19:31:11,636][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:11,721][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素输入数据: "1"
+[2023-08-31 19:31:11,722][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:11,830][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='overTime']/following-sibling::div/descendant::input" 的元素输入数据: ""
+[2023-08-31 19:31:11,830][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:12,003][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:12,503][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//label[@for='overTime']" 的元素
+[2023-08-31 19:31:12,539][BasePage.py 111][INFO]: 元素 "//label[@for='overTime']" 可点击
+[2023-08-31 19:31:12,616][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='description']/following-sibling::div/descendant::textarea" 的元素输入数据: "熟悉软件测试流程,23应届生,3年以上工作经验,965"
+[2023-08-31 19:31:12,617][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/descendant::textarea"!]
+[2023-08-31 19:31:13,004][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//label[@for='overTime']" 的元素
+[2023-08-31 19:31:13,037][BasePage.py 111][INFO]: 元素 "//label[@for='overTime']" 可点击
+[2023-08-31 19:31:13,085][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='description']/following-sibling::div/descendant::textarea" 的元素输入数据: ""
+[2023-08-31 19:31:13,085][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/descendant::textarea"!]
+[2023-08-31 19:31:13,233][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\submit.png
+[2023-08-31 19:31:13,233][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:13,515][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\submit.png
+[2023-08-31 19:31:13,515][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:14,233][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='btns']/button[contains(span, '提交')]" 的元素
+[2023-08-31 19:31:14,293][BasePage.py 111][INFO]: 元素 "//div[@class='btns']/button[contains(span, '提交')]" 可点击
+[2023-08-31 19:31:14,516][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='btns']/button[contains(span, '提交')]" 的元素
+[2023-08-31 19:31:14,578][BasePage.py 111][INFO]: 元素 "//div[@class='btns']/button[contains(span, '提交')]" 可点击
+[2023-08-31 19:31:14,654][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:15,473][test_add_position.py 43][INFO]: *************** 结束执行新增岗位成功用例 ***************
+[2023-08-31 19:31:16,149][test_001_login.py 30][INFO]: *************** 开始执行登录成功用例 ***************
+[2023-08-31 19:31:16,151][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "123"
+[2023-08-31 19:31:16,151][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:16,339][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "123123"
+[2023-08-31 19:31:16,339][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:16,501][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:16,572][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:16,609][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:17,486][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\login_success.png
+[2023-08-31 19:31:17,487][test_001_login.py 40][INFO]: 期望结果：True， 实际结果：【 True 】
+[2023-08-31 19:31:17,487][test_001_login.py 42][INFO]: *************** 结束执行登录成功用例 ***************
+[2023-08-31 19:31:17,620][test_add_position.py 31][INFO]: *************** 开始执行新增岗位成功用例 ***************
+[2023-08-31 19:31:17,621][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:17,621][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:17,748][BasePage.py 64][ERROR]: error: 查找 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[2023-08-31 19:31:17,748][BasePage.py 194][ERROR]: 无法从元素 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[2023-08-31 19:31:17,748][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:17,798][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:17,798][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:17,950][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:18,025][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:18,067][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:18,120][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="新增岗位"]" 的元素
+[2023-08-31 19:31:18,695][BasePage.py 111][INFO]: 元素 "//li[text()="新增岗位"]" 可点击
+[2023-08-31 19:31:18,775][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='jobname']/following-sibling::div/descendant::input" 的元素输入数据: "测试开发工程师"
+[2023-08-31 19:31:18,775][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:18,976][BasePage.py 225][INFO]: 正在清理定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素中的数据
+[2023-08-31 19:31:18,976][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:19,044][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素输入数据: "2"
+[2023-08-31 19:31:19,044][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:19,199][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='overTime']/following-sibling::div/descendant::input" 的元素输入数据: "2023-9-1 23:59:59"
+[2023-08-31 19:31:19,199][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:19,424][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:20,425][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//label[@for='overTime']" 的元素
+[2023-08-31 19:31:20,457][BasePage.py 111][INFO]: 元素 "//label[@for='overTime']" 可点击
+[2023-08-31 19:31:20,513][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='description']/following-sibling::div/descendant::textarea" 的元素输入数据: "熟悉软件测试流程,23应届生,3年以上工作经验,965"
+[2023-08-31 19:31:20,514][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/descendant::textarea"!]
+[2023-08-31 19:31:20,839][BasePage.py 64][ERROR]: error: 查找 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[2023-08-31 19:31:20,839][BasePage.py 194][ERROR]: 无法从元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[2023-08-31 19:31:20,839][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:20,910][BasePage.py 190][INFO]: 获取元素文本: 截止时间禁止为空
+[2023-08-31 19:31:20,910][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:20,954][BasePage.py 190][INFO]: 获取元素文本: 请输入岗位介绍
+[2023-08-31 19:31:20,954][test_add_position.py 62][INFO]: 期望结果：['None', 'None', '截止时间禁止为空', '请输入岗位介绍']， 实际结果： ['None', 'None', '截止时间禁止为空', '请输入岗位介绍'] 
+[2023-08-31 19:31:20,954][test_add_position.py 64][INFO]: *************** 结束执行新增岗位失败用例 ***************
+[2023-08-31 19:31:21,171][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\submit.png
+[2023-08-31 19:31:21,171][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:21,429][test_add_position.py 52][INFO]: *************** 开始执行新增岗位失败用例 ***************
+[2023-08-31 19:31:21,429][test_add_position.py 55][INFO]: *************** 开始执行新增岗位成功用例 ***************
+[2023-08-31 19:31:21,431][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:21,431][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:21,684][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:21,684][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:21,917][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:22,019][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:22,070][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:22,140][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="新增岗位"]" 的元素
+[2023-08-31 19:31:22,172][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='btns']/button[contains(span, '提交')]" 的元素
+[2023-08-31 19:31:22,218][BasePage.py 111][INFO]: 元素 "//div[@class='btns']/button[contains(span, '提交')]" 可点击
+[2023-08-31 19:31:22,709][BasePage.py 111][INFO]: 元素 "//li[text()="新增岗位"]" 可点击
+[2023-08-31 19:31:22,768][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='jobname']/following-sibling::div/descendant::input" 的元素输入数据: ""
+[2023-08-31 19:31:22,768][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:22,845][test_add_position.py 43][INFO]: *************** 结束执行新增岗位成功用例 ***************
+[2023-08-31 19:31:22,984][BasePage.py 225][INFO]: 正在清理定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素中的数据
+[2023-08-31 19:31:22,984][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:23,076][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='counts']/following-sibling::div/descendant::input" 的元素输入数据: "1"
+[2023-08-31 19:31:23,076][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:23,195][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='overTime']/following-sibling::div/descendant::input" 的元素输入数据: "2023-9-1 23:59:59"
+[2023-08-31 19:31:23,195][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/descendant::input"!]
+[2023-08-31 19:31:23,203][test_post_review.py 53][INFO]: *************** 开始执行岗位审查用例 ***************
+[2023-08-31 19:31:23,205][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:23,205][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:23,430][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:23,430][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:23,479][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:23,612][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:23,690][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:23,730][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:23,782][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="岗位审查"]" 的元素
+[2023-08-31 19:31:24,331][BasePage.py 111][INFO]: 元素 "//li[text()="岗位审查"]" 可点击
+[2023-08-31 19:31:24,375][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//tr[@class='el-table__row']/td[1][div/text()=10]/following-sibling::td[4]/div/span"!]
+[2023-08-31 19:31:24,479][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//label[@for='overTime']" 的元素
+[2023-08-31 19:31:24,514][BasePage.py 111][INFO]: 元素 "//label[@for='overTime']" 可点击
+[2023-08-31 19:31:24,564][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//label[@for='description']/following-sibling::div/descendant::textarea" 的元素输入数据: "熟悉软件测试流程,23应届生,能在3日能到岗"
+[2023-08-31 19:31:24,564][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/descendant::textarea"!]
+[2023-08-31 19:31:24,976][BasePage.py 190][INFO]: 获取元素文本: 进行中
+[2023-08-31 19:31:24,978][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//tr[@class='el-table__row']/td[1][div/text()=10]//following-sibling::td//button/span[contains(text(), '审 核')]" 的元素
+[2023-08-31 19:31:25,035][BasePage.py 111][INFO]: 元素 "//tr[@class='el-table__row']/td[1][div/text()=10]//following-sibling::td//button/span[contains(text(), '审 核')]" 可点击
+[2023-08-31 19:31:25,125][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='el-popover el-popper' and @aria-hidden='false']//button[2]" 的元素
+[2023-08-31 19:31:25,203][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\submit.png
+[2023-08-31 19:31:25,203][BasePage.py 249][INFO]: 强制休眠 "1" 秒
+[2023-08-31 19:31:25,682][BasePage.py 111][INFO]: 元素 "//div[@class='el-popover el-popper' and @aria-hidden='false']//button[2]" 可点击
+[2023-08-31 19:31:25,728][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//tr[@class='el-table__row']/td[1][div/text()=10]/following-sibling::td[4]/div/span"!]
+[2023-08-31 19:31:25,817][BasePage.py 190][INFO]: 获取元素文本: 进行中
+[2023-08-31 19:31:26,191][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\job_operation.png
+[2023-08-31 19:31:26,204][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='btns']/button[contains(span, '提交')]" 的元素
+[2023-08-31 19:31:26,224][test_post_review.py 63][INFO]: *************** 结束执行岗位审查用例 ***************
+[2023-08-31 19:31:26,263][BasePage.py 111][INFO]: 元素 "//div[@class='btns']/button[contains(span, '提交')]" 可点击
+[2023-08-31 19:31:26,398][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='jobname']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:26,440][BasePage.py 190][INFO]: 获取元素文本: 请输入岗位名称
+[2023-08-31 19:31:26,440][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:26,699][test_post_review.py 32][INFO]: *************** 开始执行岗位审查用例 ***************
+[2023-08-31 19:31:26,701][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:26,701][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:26,892][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:26,892][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:27,065][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:27,161][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:27,208][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:27,300][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="岗位审查"]" 的元素
+[2023-08-31 19:31:27,860][BasePage.py 111][INFO]: 元素 "//li[text()="岗位审查"]" 可点击
+[2023-08-31 19:31:27,919][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//input[@type='text' and @class='el-input__inner' and @placeholder='请输入岗位名称']" 的元素输入数据: "测试"
+[2023-08-31 19:31:27,919][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//input[@type='text' and @class='el-input__inner' and @placeholder='请输入岗位名称']"!]
+[2023-08-31 19:31:28,192][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//button[span[text()='查询']]" 的元素
+[2023-08-31 19:31:28,229][BasePage.py 111][INFO]: 元素 "//button[span[text()='查询']]" 可点击
+[2023-08-31 19:31:28,274][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-table__row"!]
+[2023-08-31 19:31:28,630][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\job_operation.png
+[2023-08-31 19:31:28,630][test_post_review.py 40][INFO]: 期望获得【2】数据， 实际获得【2】数据
+[2023-08-31 19:31:28,630][test_post_review.py 42][INFO]: *************** 结束执行岗位审查用例 ***************
+[2023-08-31 19:31:28,892][test_post_review.py 53][INFO]: *************** 开始执行岗位审查用例 ***************
+[2023-08-31 19:31:28,894][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:28,894][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[1]/div/div[1]/input"!]
+[2023-08-31 19:31:29,073][BasePage.py 212][INFO]: 向定位方式 "xpath" 为 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input" 的元素输入数据: "admin"
+[2023-08-31 19:31:29,073][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//*[@id="app"]/div/div[2]/div/div/form/div[2]/div/div[1]/input"!]
+[2023-08-31 19:31:29,220][BasePage.py 78][INFO]: [Info:开始通过 "class_name" 查找元素(elements) "el-radio__input"!]
+[2023-08-31 19:31:29,288][BasePage.py 237][INFO]: 点击定位方式 "id" 为 "successBtn" 的元素
+[2023-08-31 19:31:29,326][BasePage.py 111][INFO]: 元素 "successBtn" 可点击
+[2023-08-31 19:31:29,377][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//li[text()="岗位审查"]" 的元素
+[2023-08-31 19:31:29,522][BasePage.py 64][ERROR]: error: 查找 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[2023-08-31 19:31:29,522][BasePage.py 194][ERROR]: 无法从元素 "//label[@for='counts']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[2023-08-31 19:31:29,522][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='overTime']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:29,926][BasePage.py 111][INFO]: 元素 "//li[text()="岗位审查"]" 可点击
+[2023-08-31 19:31:29,969][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//tr[@class='el-table__row']/td[1][div/text()=11]/following-sibling::td[4]/div/span"!]
+[2023-08-31 19:31:30,139][BasePage.py 190][INFO]: 获取元素文本: 未通过审核
+[2023-08-31 19:31:30,140][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//tr[@class='el-table__row']/td[1][div/text()=11]//following-sibling::td//button/span[contains(text(), '审 核')]" 的元素
+[2023-08-31 19:31:30,176][BasePage.py 111][INFO]: 元素 "//tr[@class='el-table__row']/td[1][div/text()=11]//following-sibling::td//button/span[contains(text(), '审 核')]" 可点击
+[2023-08-31 19:31:30,227][BasePage.py 237][INFO]: 点击定位方式 "xpath" 为 "//div[@class='el-popover el-popper' and @aria-hidden='false']//button[1]" 的元素
+[2023-08-31 19:31:30,771][BasePage.py 111][INFO]: 元素 "//div[@class='el-popover el-popper' and @aria-hidden='false']//button[1]" 可点击
+[2023-08-31 19:31:30,815][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//tr[@class='el-table__row']/td[1][div/text()=11]/following-sibling::td[4]/div/span"!]
+[2023-08-31 19:31:30,887][BasePage.py 190][INFO]: 获取元素文本: 未通过审核
+[2023-08-31 19:31:31,245][screenshot_util.py 26][INFO]: Screenshot saved: D:\Python_Workspace\qgzxtest\screenshots\job_operation.png
+[2023-08-31 19:31:31,781][test_post_review.py 63][INFO]: *************** 结束执行岗位审查用例 ***************
+[2023-08-31 19:31:32,587][BasePage.py 64][ERROR]: error: 查找 "//label[@for='overTime']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[2023-08-31 19:31:32,587][BasePage.py 194][ERROR]: 无法从元素 "//label[@for='overTime']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[2023-08-31 19:31:32,587][BasePage.py 60][INFO]: [Info:开始通过 "xpath" 查找元素 "//label[@for='description']/following-sibling::div/div[@class='el-form-item__error']"!]
+[2023-08-31 19:31:35,685][BasePage.py 64][ERROR]: error: 查找 "//label[@for='description']/following-sibling::div/div[@class='el-form-item__error']" 超时！超时异常: "Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F3CB3D72+61490]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C45FC2+740594]
+	(No symbol) [0x00007FF6F3A1B8AE]
+	(No symbol) [0x00007FF6F3A632F4]
+	(No symbol) [0x00007FF6F3A63405]
+	(No symbol) [0x00007FF6F3A9FCE7]
+	(No symbol) [0x00007FF6F3A8394F]
+	(No symbol) [0x00007FF6F3A57021]
+	(No symbol) [0x00007FF6F3A9CE21]
+	(No symbol) [0x00007FF6F3A836E3]
+	(No symbol) [0x00007FF6F3A55EAA]
+	(No symbol) [0x00007FF6F3A5518B]
+	(No symbol) [0x00007FF6F3A56634]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E78D29+1207369]
+	(No symbol) [0x00007FF6F3AD5304]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B990E1+32273]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3B919D9+1801]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF6F3E77904+1202212]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4E958+19784]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AE14+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6F3C4AF46+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6F3C3F411+713025]
+	BaseThreadInitThunk [0x00007FFFD0C77614+20]
+	RtlUserThreadStart [0x00007FFFD10A26B1+33]
+" 
+[2023-08-31 19:31:35,685][BasePage.py 194][ERROR]: 无法从元素 "//label[@for='description']/following-sibling::div/div[@class='el-form-item__error']" 获取文本
+[2023-08-31 19:31:35,685][test_add_position.py 62][INFO]: 期望结果：['请输入岗位名称', 'None', 'None', 'None']， 实际结果： ['请输入岗位名称', 'None', 'None', 'None'] 
+[2023-08-31 19:31:35,685][test_add_position.py 64][INFO]: *************** 结束执行新增岗位失败用例 ***************

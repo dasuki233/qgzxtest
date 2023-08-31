@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "A",
+    "children" : [ {
+      "name" : "25412-MainThread",
+      "children" : [ {
+        "name" : "用户登录=>预期失败",
+        "uid" : "bfac7de3170ffac3",
+        "parentUid" : "979cbf69b8bd8f861800aeaedd5b03c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481467294,
+          "stop" : 1693481471533,
+          "duration" : 4239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}" ]
+      }, {
+        "name" : "新增岗位=>预期成功",
+        "uid" : "c44767c35047c606",
+        "parentUid" : "979cbf69b8bd8f861800aeaedd5b03c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481477621,
+          "stop" : 1693481482846,
+          "duration" : 5225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
+      }, {
+        "name" : "岗位审查-审核或删除=>预期成功",
+        "uid" : "4a31472db75bff4",
+        "parentUid" : "979cbf69b8bd8f861800aeaedd5b03c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481488893,
+          "stop" : 1693481491781,
+          "duration" : 2888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'ID': '11', 'operation': '审核不通过'}" ]
+      } ],
+      "uid" : "979cbf69b8bd8f861800aeaedd5b03c7"
+    }, {
+      "name" : "24080-MainThread",
+      "children" : [ {
+        "name" : "新增岗位=>预期失败",
+        "uid" : "dd1cef4349360a6",
+        "parentUid" : "6bdabbaaa62c1c6d5e59bc6e4fad13ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481481429,
+          "stop" : 1693481495686,
+          "duration" : 14257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}" ]
+      }, {
+        "name" : "新增岗位=>预期成功",
+        "uid" : "99bc34266a404231",
+        "parentUid" : "6bdabbaaa62c1c6d5e59bc6e4fad13ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469288,
+          "stop" : 1693481475474,
+          "duration" : 6186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
+      } ],
+      "uid" : "6bdabbaaa62c1c6d5e59bc6e4fad13ca"
+    }, {
+      "name" : "24464-MainThread",
+      "children" : [ {
+        "name" : "新增岗位=>预期失败",
+        "uid" : "5934ba3299009e7a",
+        "parentUid" : "609c0f1c347d525b5baabc97fa5d5349",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469379,
+          "stop" : 1693481480954,
+          "duration" : 11575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}" ]
+      }, {
+        "name" : "岗位审查-查询功能测试=>预期成功",
+        "uid" : "3a56b50294a6a51",
+        "parentUid" : "609c0f1c347d525b5baabc97fa5d5349",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481486700,
+          "stop" : 1693481488630,
+          "duration" : 1930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试', 'total': '2'}" ]
+      } ],
+      "uid" : "609c0f1c347d525b5baabc97fa5d5349"
+    }, {
+      "name" : "25780-MainThread",
+      "children" : [ {
+        "name" : "用户登录=>预期成功",
+        "uid" : "7482b6bcba164721",
+        "parentUid" : "648848672bdf57cd1b412610f57d7877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481476150,
+          "stop" : 1693481477487,
+          "duration" : 1337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}" ]
+      }, {
+        "name" : "岗位审查-审核或删除=>预期成功",
+        "uid" : "30a5a0b3a3e149f1",
+        "parentUid" : "648848672bdf57cd1b412610f57d7877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481483203,
+          "stop" : 1693481486225,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'ID': '10', 'operation': '审核通过'}" ]
+      }, {
+        "name" : "用户登录=>预期成功",
+        "uid" : "f2c1a3922f4c7b9c",
+        "parentUid" : "648848672bdf57cd1b412610f57d7877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469425,
+          "stop" : 1693481471060,
+          "duration" : 1635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}" ]
+      } ],
+      "uid" : "648848672bdf57cd1b412610f57d7877"
+    } ],
+    "uid" : "428fca08048f7115f56af72e8168011b"
+  } ]
+}

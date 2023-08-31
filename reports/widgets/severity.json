@@ -1,0 +1,101 @@
+[ {
+  "uid" : "30a5a0b3a3e149f1",
+  "name" : "岗位审查-审核或删除=>预期成功",
+  "time" : {
+    "start" : 1693481483203,
+    "stop" : 1693481486225,
+    "duration" : 3022
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd1cef4349360a6",
+  "name" : "新增岗位=>预期失败",
+  "time" : {
+    "start" : 1693481481429,
+    "stop" : 1693481495686,
+    "duration" : 14257
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5934ba3299009e7a",
+  "name" : "新增岗位=>预期失败",
+  "time" : {
+    "start" : 1693481469379,
+    "stop" : 1693481480954,
+    "duration" : 11575
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c44767c35047c606",
+  "name" : "新增岗位=>预期成功",
+  "time" : {
+    "start" : 1693481477621,
+    "stop" : 1693481482846,
+    "duration" : 5225
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4a31472db75bff4",
+  "name" : "岗位审查-审核或删除=>预期成功",
+  "time" : {
+    "start" : 1693481488893,
+    "stop" : 1693481491781,
+    "duration" : 2888
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f2c1a3922f4c7b9c",
+  "name" : "用户登录=>预期成功",
+  "time" : {
+    "start" : 1693481469425,
+    "stop" : 1693481471060,
+    "duration" : 1635
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7482b6bcba164721",
+  "name" : "用户登录=>预期成功",
+  "time" : {
+    "start" : 1693481476150,
+    "stop" : 1693481477487,
+    "duration" : 1337
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a56b50294a6a51",
+  "name" : "岗位审查-查询功能测试=>预期成功",
+  "time" : {
+    "start" : 1693481486700,
+    "stop" : 1693481488630,
+    "duration" : 1930
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bfac7de3170ffac3",
+  "name" : "用户登录=>预期失败",
+  "time" : {
+    "start" : 1693481467294,
+    "stop" : 1693481471533,
+    "duration" : 4239
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "99bc34266a404231",
+  "name" : "新增岗位=>预期成功",
+  "time" : {
+    "start" : 1693481469288,
+    "stop" : 1693481475474,
+    "duration" : 6186
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

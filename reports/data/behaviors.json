@@ -1,0 +1,211 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "用例--登录--预期登陆失败",
+      "children" : [ {
+        "name" : "用户登录=>预期失败",
+        "uid" : "bfac7de3170ffac3",
+        "parentUid" : "4c766f4aefdf11012cfe55f002e1800d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481467294,
+          "stop" : 1693481471533,
+          "duration" : 4239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': '123', 'role': '管理员'}" ]
+      } ],
+      "uid" : "4c766f4aefdf11012cfe55f002e1800d"
+    }, {
+      "name" : "用例--登录--预期登录成功",
+      "children" : [ {
+        "name" : "用户登录=>预期成功",
+        "uid" : "f2c1a3922f4c7b9c",
+        "parentUid" : "1df652aa4ae564a408dd76e7747401a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469425,
+          "stop" : 1693481471060,
+          "duration" : 1635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '1', 'username': 'admin', 'password': 'admin', 'role': '管理员'}" ]
+      }, {
+        "name" : "用户登录=>预期成功",
+        "uid" : "7482b6bcba164721",
+        "parentUid" : "1df652aa4ae564a408dd76e7747401a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481476150,
+          "stop" : 1693481477487,
+          "duration" : 1337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'index': '2', 'username': '123', 'password': '123123', 'role': '管理员'}" ]
+      } ],
+      "uid" : "1df652aa4ae564a408dd76e7747401a6"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "新增岗位功能",
+    "children" : [ {
+      "name" : "用例--新增岗位--预期新增成功",
+      "children" : [ {
+        "name" : "新增岗位=>预期成功",
+        "uid" : "99bc34266a404231",
+        "parentUid" : "e9320c921feb34f1869e42407ff6db39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469288,
+          "stop" : 1693481475474,
+          "duration" : 6186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
+      }, {
+        "name" : "新增岗位=>预期成功",
+        "uid" : "c44767c35047c606",
+        "parentUid" : "e9320c921feb34f1869e42407ff6db39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481477621,
+          "stop" : 1693481482846,
+          "duration" : 5225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '2', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,3年以上工作经验,965'}" ]
+      } ],
+      "uid" : "e9320c921feb34f1869e42407ff6db39"
+    }, {
+      "name" : "用例--新增岗位--预期新增失败",
+      "children" : [ {
+        "name" : "新增岗位=>预期失败",
+        "uid" : "5934ba3299009e7a",
+        "parentUid" : "ee51a6220834bc99b662390ca170b8b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481469379,
+          "stop" : 1693481480954,
+          "duration" : 11575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试开发工程师', 'counts': '1', 'date': '', 'description': '', 'expect_values': ['None', 'None', '截止时间禁止为空', '请输入岗位介绍']}" ]
+      }, {
+        "name" : "新增岗位=>预期失败",
+        "uid" : "dd1cef4349360a6",
+        "parentUid" : "ee51a6220834bc99b662390ca170b8b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481481429,
+          "stop" : 1693481495686,
+          "duration" : 14257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '', 'counts': '1', 'date': '2023-9-1 23:59:59', 'description': '熟悉软件测试流程,23应届生,能在3日能到岗', 'expect_values': ['请输入岗位名称', 'None', 'None', 'None']}" ]
+      } ],
+      "uid" : "ee51a6220834bc99b662390ca170b8b8"
+    } ],
+    "uid" : "ddf54d93fe3098a55e48589e40fba3b9"
+  }, {
+    "name" : "岗位审查功能",
+    "children" : [ {
+      "name" : "用例--岗位审查操作",
+      "children" : [ {
+        "name" : "岗位审查-审核或删除=>预期成功",
+        "uid" : "30a5a0b3a3e149f1",
+        "parentUid" : "3399fe7f403605f3655735cf537e9119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481483203,
+          "stop" : 1693481486225,
+          "duration" : 3022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'ID': '10', 'operation': '审核通过'}" ]
+      }, {
+        "name" : "岗位审查-审核或删除=>预期成功",
+        "uid" : "4a31472db75bff4",
+        "parentUid" : "3399fe7f403605f3655735cf537e9119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481488893,
+          "stop" : 1693481491781,
+          "duration" : 2888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'ID': '11', 'operation': '审核不通过'}" ]
+      } ],
+      "uid" : "3399fe7f403605f3655735cf537e9119"
+    }, {
+      "name" : "用例--查询功能测试",
+      "children" : [ {
+        "name" : "岗位审查-查询功能测试=>预期成功",
+        "uid" : "3a56b50294a6a51",
+        "parentUid" : "5c3d3192c9f03e4cca857216d3203f6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693481486700,
+          "stop" : 1693481488630,
+          "duration" : 1930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'jobname': '测试', 'total': '2'}" ]
+      } ],
+      "uid" : "5c3d3192c9f03e4cca857216d3203f6e"
+    } ],
+    "uid" : "28c4433f43931ec24a6b83e99dc4b931"
+  } ]
+}
